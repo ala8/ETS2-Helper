@@ -53,7 +53,7 @@ Game::Game()
 			{
 
 				this->moduleBaseAddress = (uintptr_t)modEntry32.modBaseAddr;
-				this->moduleBasePtr = (uintptr_t)modEntry32.modBaseAddr + 0x160ABA0;
+				this->moduleBasePtr = (uintptr_t)modEntry32.modBaseAddr + 0x1609BA0;
 				break;
 			}
 
